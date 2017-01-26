@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;fusiTheme&quot;}">
+  <meta name="vaadin-version" content="7.7.0">
+ </head> 
+ <body> 
+  <vaadin-panel caption="User Credential" size-auto> 
+   <vaadin-form-layout width="318px" height="185px" margin-left> 
+    <vaadin-text-field validation-visible="false" icon="fonticon://FontAwesome/f007" required-error="Must provide Username" input-prompt="Username" tabindex="1"></vaadin-text-field> 
+    <vaadin-password-field validation-visible="false" icon="fonticon://FontAwesome/f084" required-error="Must provide password" input-prompt="Password" tabindex="2"></vaadin-password-field> 
+    <vaadin-horizontal-layout spacing> 
+     <vaadin-button tabindex="3" plain-text>
+       Login 
+     </vaadin-button> 
+     <vaadin-label style-name="light" size-auto :middle>
+       Register 
+     </vaadin-label> 
+    </vaadin-horizontal-layout> 
+   </vaadin-form-layout> 
+  </vaadin-panel>  
+ </body>
+</html>
